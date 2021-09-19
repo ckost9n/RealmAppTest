@@ -30,7 +30,7 @@
                             </connections>
                         </segmentedControl>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TaskListCell" textLabel="nvs-Ym-9uB" detailTextLabel="NcH-mx-ucJ" style="IBUITableViewCellStyleValue1" id="f7j-eo-nRw">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="taskListCell" textLabel="nvs-Ym-9uB" detailTextLabel="NcH-mx-ucJ" style="IBUITableViewCellStyleValue1" id="f7j-eo-nRw">
                                 <rect key="frame" x="0.0" y="56.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="f7j-eo-nRw" id="ABD-rR-XBn">
@@ -89,7 +89,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="0m7-zF-RoM" detailTextLabel="Jjh-PS-S3w" style="IBUITableViewCellStyleSubtitle" id="phk-Ci-6Bm">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="taskCell" textLabel="0m7-zF-RoM" detailTextLabel="Jjh-PS-S3w" style="IBUITableViewCellStyleSubtitle" id="phk-Ci-6Bm">
                                 <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="phk-Ci-6Bm" id="huo-6s-fQ7">
@@ -119,7 +119,20 @@
                             <outlet property="delegate" destination="fOz-Nq-Lbl" id="F3i-Ti-prl"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="cNU-25-djG"/>
+                    <navigationItem key="navigationItem" id="cNU-25-djG">
+                        <rightBarButtonItems>
+                            <barButtonItem systemItem="add" id="iXJ-dh-T8T">
+                                <connections>
+                                    <action selector="addButtonPressed:" destination="fOz-Nq-Lbl" id="PEI-e4-4HI"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem systemItem="edit" id="3gS-Aa-Vg4">
+                                <connections>
+                                    <action selector="editButtonPressed:" destination="fOz-Nq-Lbl" id="Gag-92-1P4"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Zf-zG-DH0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
