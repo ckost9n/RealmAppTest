@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		3C22220526F7804700821CE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C22220426F7804700821CE0 /* AppDelegate.swift */; };
 		3C22220726F7804700821CE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C22220626F7804700821CE0 /* SceneDelegate.swift */; };
-		3C22220926F7804700821CE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C22220826F7804700821CE0 /* ViewController.swift */; };
+		3C22220926F7804700821CE0 /* TasksListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C22220826F7804700821CE0 /* TasksListViewController.swift */; };
 		3C22220C26F7804700821CE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C22220A26F7804700821CE0 /* Main.storyboard */; };
 		3C22220E26F7804B00821CE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C22220D26F7804B00821CE0 /* Assets.xcassets */; };
 		3C22221126F7804B00821CE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C22220F26F7804B00821CE0 /* LaunchScreen.storyboard */; };
+		3C22221926F7883F00821CE0 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C22221826F7883F00821CE0 /* TasksViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3C22220126F7804700821CE0 /* RealmAppTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmAppTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C22220426F7804700821CE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C22220626F7804700821CE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3C22220826F7804700821CE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C22220826F7804700821CE0 /* TasksListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksListViewController.swift; sourceTree = "<group>"; };
 		3C22220B26F7804700821CE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C22220D26F7804B00821CE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C22221026F7804B00821CE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C22221226F7804B00821CE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C22221826F7883F00821CE0 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				3C22220426F7804700821CE0 /* AppDelegate.swift */,
 				3C22220626F7804700821CE0 /* SceneDelegate.swift */,
-				3C22220826F7804700821CE0 /* ViewController.swift */,
+				3C22220826F7804700821CE0 /* TasksListViewController.swift */,
+				3C22221826F7883F00821CE0 /* TasksViewController.swift */,
 				3C22220A26F7804700821CE0 /* Main.storyboard */,
 				3C22220D26F7804B00821CE0 /* Assets.xcassets */,
 				3C22220F26F7804B00821CE0 /* LaunchScreen.storyboard */,
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C22220926F7804700821CE0 /* ViewController.swift in Sources */,
+				3C22220926F7804700821CE0 /* TasksListViewController.swift in Sources */,
+				3C22221926F7883F00821CE0 /* TasksViewController.swift in Sources */,
 				3C22220526F7804700821CE0 /* AppDelegate.swift in Sources */,
 				3C22220726F7804700821CE0 /* SceneDelegate.swift in Sources */,
 			);
